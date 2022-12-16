@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(57, 78, 138);  
+}
+
+.header{  
+  display: flex;
+  justify-content: space-between;
+}
+
+.Quiz{
+  background-color:rgba(119, 155, 187, 0.95);
+  border-radius: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: 0px 0px 20px 7px rgba(75, 116, 164, 0.689);
+}
+
+
+.headerAndQuestion{
+  text-align: center;
+}
+
+.h3{
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;  
+}
+
+.h4{
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.option{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.stbttn{
+  margin-top: 300px;
+  width: 200px;  
+}
+
+.stbttn:hover{
+  margin-top: 300px;
+  width: 200px; 
+  opacity: 0.5; 
+}
+
+
+.quest{
+  align-items: center;
+  width: 20vw;
+  display:flex;
+  justify-content: center;  
+}
+
+#question{
+  width: 24vw;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.btns{
+  position: relative;
+  top: -15vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-flow: column;
+  width: 200px;
+  
+}
+
+.bttn{
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
+  
+}
+
+
+.quizContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
